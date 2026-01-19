@@ -1,0 +1,54 @@
+{
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1320px"
+		},
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#0d6efd",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#6c757d",
+					"name": "Secondary"
+				},
+				{
+					"slug": "success",
+					"color": "#198754",
+					"name": "Success"
+				},
+				{
+					"slug": "info",
+					"color": "#0dcaf0",
+					"name": "Info"
+				},
+				{
+					"slug": "warning",
+					"color": "#ffc107",
+					"name": "Warning"
+				},
+				{
+					"slug": "danger",
+					"color": "#dc3545",
+					"name": "Danger"
+				},
+				{
+					"slug": "light",
+					"color": "#f8f9fa",
+					"name": "Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#212529",
+					"name": "Dark"
+				}
+			]
+		}
+	}
+}

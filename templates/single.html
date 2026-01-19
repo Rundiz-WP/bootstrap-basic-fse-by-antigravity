@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"container py-5","layout":{"type":"default"}} -->
+<main class="wp-block-group container py-5">
+    <!-- wp:group {"className":"row","layout":{"type":"default"}} -->
+    <div class="wp-block-group row">
+        <!-- wp:group {"className":"col-lg-9","layout":{"type":"default"}} -->
+        <div class="wp-block-group col-lg-9">
+            <!-- wp:group {"tagName":"article","className":"mb-5","layout":{"type":"default"}} -->
+            <article class="wp-block-group mb-5">
+                <!-- wp:post-title {"level":1,"className":"mb-3"} /-->
+
+                <!-- wp:group {"className":"text-muted mb-4 border-bottom pb-3","layout":{"type":"flex","flexWrap":"wrap"}} -->
+                <div class="wp-block-group text-muted mb-4 border-bottom pb-3">
+                    <span>By </span>
+                    <!-- wp:post-author-name {"isLink":true} /-->
+                    <span> on </span>
+                    <!-- wp:post-date /-->
+                </div>
+                <!-- /wp:group -->
+
+                <!-- wp:post-featured-image {"className":"img-fluid rounded mb-4 w-100"} /-->
+
+                <!-- wp:post-content {"layout":{"type":"default"}} /-->
+
+                <!-- wp:group {"className":"mt-5 pt-4 border-top","layout":{"type":"default"}} -->
+                <div class="wp-block-group mt-5 pt-4 border-top">
+                    <!-- wp:post-terms {"term":"category","prefix":"Categories: "} /-->
+                    <!-- wp:post-terms {"term":"post_tag","prefix":"Tags: ","className":"ms-3"} /-->
+                </div>
+                <!-- /wp:group -->
+            </article>
+            <!-- /wp:group -->
+
+            <!-- wp:comments {"className":"mt-5"} /-->
+        </div>
+        <!-- /wp:group -->
+
+        <!-- wp:template-part {"slug":"sidebar","tagName":"aside","className":"col-lg-3"} /-->
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
